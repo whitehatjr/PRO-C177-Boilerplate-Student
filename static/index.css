@@ -1,0 +1,79 @@
+body {
+    background-image: url('./assets/background.png');
+    font-family: 'Pangolin', cursive;
+}
+
+#story_title {
+    font-size: 4em;
+}
+
+#input_fields {
+    background: white;
+    padding: 1em;
+    border: 2px dashed black;
+    border-radius: 2em;
+}
+
+#story_section {
+    background: white;
+    padding: 1em;
+    /* margin: 1em; */
+    border: 2px dashed black;
+    border-radius: 2em;
+}
+
+.input_field {
+    width: 90%;
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: 1px solid black;
+    background: #91c4d2;
+}
+
+.input_field::placeholder {
+    color: black;
+}
+
+#story_text {
+    font-size: 2em;
+    line-height: 2em;
+}
+
+.rep_input {
+    text-decoration: underline;
+}
+
+#submit_story {
+    width: 40%;
+    background-color: #66e8d8;
+    padding: 0.3em;
+    font-size: 40px;
+    border: 2px solid black;
+    border-radius: 3em;
+    font-weight: 600;
+}
+
+.display_inline {
+    display: inline;
+    padding: 0.5em;
+}
+
+#word_bank_container {
+    background: white;
+    padding: 1em;
+    border: 2px dashed black;
+    border-radius: 2em;
+}
+
+.word_bank_button {
+    background-color: #bfd892;
+    padding: 0.5em;
+    border-radius: 1em;
+    border: none;
+    margin: 0.5em;
+}
+
+.hidden {
+    display: none
+}
